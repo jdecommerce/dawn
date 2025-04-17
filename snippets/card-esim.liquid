@@ -1,0 +1,55 @@
+<a
+  href="{{ card_product.url }}"
+  id="CardLink-{{ section_id }}-{{ card_product.id }}"
+  class="full-unstyled-link"
+  aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
+>
+ <div class="card-wrapper product-card-wrapper underline-links-hover">
+    
+    <div
+      class="esim-wrapper"
+    >
+      <div
+        class="esim-img-coloumn"
+      >
+        <img
+                srcset="
+                  {{ card_product.featured_media | image_url: width: 165 }} 165w,
+                  {{ card_product.featured_media | image_url }} {{ card_product.featured_media.width }}w
+                "
+                src="{{ card_product.featured_media | image_url: width: 533 }}"
+                sizes="(min-width: 20px) 20px, 40px"
+                alt="{{ card_product.featured_media.alt | escape }}"
+                class="motion-reduce"
+                {% unless lazy_load == false %}
+                  loading="lazy"
+                {% endunless %}
+                width="20"
+                height="20"
+              >
+             
+      </div>
+      
+      <div class="esim-text-coloumn">
+        
+              {{ card_product.title | escape }}
+            
+       
+      </div>
+
+      <div class="esim-icon-column">
+        
+      </div>
+     
+  
+      </div>
+
+      <span class="svg-wrapper">
+        <svg width="20px" height="20px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+
+                  <path fill="currentColor" d="M8 6L8 2L10 2L16 8L10 14L8 14L8 10L-1.74845e-07 10L-3.01991e-07 6L8 6Z"></path>
+      </svg>
+      </span>
+    
+    </div>
+  </a>
