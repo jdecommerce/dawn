@@ -135,54 +135,74 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_iPnaqt": {
-      "type": "rich-text",
+    "collapsible_content_8VfDY6": {
+      "type": "collapsible-content",
       "blocks": {
-        "heading_7yFcbt": {
-          "type": "heading",
+        "collapsible_row_K4mxCh": {
+          "type": "collapsible_row",
+          "source": "{{ metaobjects.device_compatibility[\"i-phone\"] }}",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "heading": "{{ metaobjects.device_compatibility[\"i-phone\"].heading.value }}",
+            "icon": "check_mark",
+            "row_content": "{{ metaobjects.device_compatibility[\"i-phone\"].main_content | metafield_tag }}",
+            "page": ""
           }
         },
-        "text_agzKHh": {
-          "type": "text",
+        "collapsible_row_AhNTXR": {
+          "type": "collapsible_row",
+          "source": "{{ metaobjects.device_compatibility[\"samsung-phones\"] }}",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "heading": "{{ metaobjects.device_compatibility[\"samsung-phones\"].heading.value }}",
+            "icon": "check_mark",
+            "row_content": "{{ metaobjects.device_compatibility[\"samsung-phones\"].main_content | metafield_tag }}",
+            "page": ""
           }
         },
-        "button_gzppNR": {
-          "type": "button",
+        "collapsible_row_qpmGHh": {
+          "type": "collapsible_row",
+          "source": "{{ metaobjects.device_compatibility[\"google-pixel\"] }}",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "heading": "{{ metaobjects.device_compatibility[\"google-pixel\"].heading.value }}",
+            "icon": "check_mark",
+            "row_content": "{{ metaobjects.device_compatibility[\"google-pixel\"].main_content | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_row_LnbPFP": {
+          "type": "collapsible_row",
+          "source": "{{ metaobjects.device_compatibility[\"i-pads-with-e-sim-wi-fi-cellular\"] }}",
+          "settings": {
+            "heading": "{{ metaobjects.device_compatibility[\"i-pads-with-e-sim-wi-fi-cellular\"].heading.value }}",
+            "icon": "check_mark",
+            "row_content": "{{ metaobjects.device_compatibility[\"i-pads-with-e-sim-wi-fi-cellular\"].main_content | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_row_j9Li6G": {
+          "type": "collapsible_row",
+          "source": "{{ metaobjects.device_compatibility[\"windows-10-11-laptops\"] }}",
+          "settings": {
+            "heading": "{{ metaobjects.device_compatibility[\"windows-10-11-laptops\"].heading.value }}",
+            "icon": "check_mark",
+            "row_content": "{{ metaobjects.device_compatibility[\"windows-10-11-laptops\"].main_content | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_row_YmMWKG": {
+          "type": "collapsible_row",
+          "source": "{{ metaobjects.device_compatibility[\"other-devices\"] }}",
+          "settings": {
+            "heading": "{{ metaobjects.device_compatibility[\"other-devices\"].heading.value }}",
+            "icon": "check_mark",
+            "row_content": "{{ metaobjects.device_compatibility[\"other-devices\"].main_content | metafield_tag }}",
+            "page": ""
           }
         }
-      },
-      "block_order": [
-        "heading_7yFcbt",
-        "text_agzKHh",
-        "button_gzppNR"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    }
   },
   "order": [
     "main",
     "related-products",
     "featured_esim_collection_zaR8Ca",
-    "rich_text_iPnaqt"
+    "collapsible_content_8VfDY6"
   ]
 }
