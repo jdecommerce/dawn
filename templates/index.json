@@ -211,6 +211,9 @@
         "column_WQGwhH",
         "column_agbaca"
       ],
+      "custom_css": [
+        "h2 {text-align: center; width: 100%;}"
+      ],
       "settings": {
         "title": "Why Roameo eSIMs?",
         "heading_size": "h2",
