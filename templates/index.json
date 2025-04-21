@@ -156,11 +156,83 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_4mtCt4": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_mGRMVJ": {
+          "type": "column",
+          "source": "{{ metaobjects.why_roameo[\"reliable-network\"] }}",
+          "settings": {
+            "image": "{{ metaobjects.why_roameo[\"reliable-network\"].image.value }}",
+            "title": "{{ metaobjects.why_roameo[\"reliable-network\"].heading.value }}",
+            "text": "{{ metaobjects.why_roameo[\"reliable-network\"].content | metafield_tag }}",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NfWXkn": {
+          "type": "column",
+          "source": "{{ metaobjects.why_roameo[\"instant-delivery\"] }}",
+          "settings": {
+            "image": "{{ metaobjects.why_roameo[\"instant-delivery\"].image.value }}",
+            "title": "{{ metaobjects.why_roameo[\"instant-delivery\"].heading.value }}",
+            "text": "{{ metaobjects.why_roameo[\"instant-delivery\"].content | metafield_tag }}",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WQGwhH": {
+          "type": "column",
+          "source": "{{ metaobjects.why_roameo[\"save-roaming-fees\"] }}",
+          "settings": {
+            "image": "{{ metaobjects.why_roameo[\"save-roaming-fees\"].image.value }}",
+            "title": "{{ metaobjects.why_roameo[\"save-roaming-fees\"].heading.value }}",
+            "text": "{{ metaobjects.why_roameo[\"save-roaming-fees\"].content | metafield_tag }}",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_agbaca": {
+          "type": "column",
+          "source": "{{ metaobjects.why_roameo[\"enjoy-dual-si-ms\"] }}",
+          "settings": {
+            "image": "{{ metaobjects.why_roameo[\"enjoy-dual-si-ms\"].image.value }}",
+            "title": "{{ metaobjects.why_roameo[\"enjoy-dual-si-ms\"].heading.value }}",
+            "text": "{{ metaobjects.why_roameo[\"enjoy-dual-si-ms\"].content | metafield_tag }}",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_mGRMVJ",
+        "column_NfWXkn",
+        "column_WQGwhH",
+        "column_agbaca"
+      ],
+      "settings": {
+        "title": "Why Roameo eSIMs?",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "rich_text",
     "featured_esim_collection_fyLHnd",
-    "collapsible_content_8VfDY6"
+    "collapsible_content_8VfDY6",
+    "multicolumn_4mtCt4"
   ]
 }
