@@ -88,8 +88,13 @@
               {%- when 'title' -%}
                 <div class="product__title" {{ block.shopify_attributes }}>
                   <h1>
-                    {{ block.settings.title_prefix -}}
+                    {%- if block.settings.title_prefix -%}
+                      {{ block.settings.title_prefix | append: ' ' -}}
+                    {%- endif -%}
                     {{- product.title | escape }}
+                    {%- if block.settings.title_postfix -%}
+                      {{ block.settings.title_postfix | prepend: ' ' -}}
+                    {%- endif -%}
                   </h1>
                   <a href="{{ product.url }}" class="product__title">
                     <h2 class="h1">
@@ -937,6 +942,11 @@
           "type": "text",
           "id": "title_prefix",
           "label": "Title prefix"
+        },
+        {
+          "type": "text",
+          "id": "title_postfix",
+          "label": "Title postfix"
         }
       ]
     },
