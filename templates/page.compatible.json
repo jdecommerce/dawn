@@ -15,9 +15,195 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_cxFQjC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Dyrjzp": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobjects.device_compatibility[\"i-phone\"].heading.value }}",
+            "heading_size": "h2"
+          }
+        },
+        "text_QbgcC9": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobjects.device_compatibility[\"i-phone\"].main_content | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Dyrjzp",
+        "text_QbgcC9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_BztDAa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TXqxKy": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobjects.device_compatibility[\"google-pixel\"].heading.value }}",
+            "heading_size": "h2"
+          }
+        },
+        "text_M6xxmi": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobjects.device_compatibility[\"google-pixel\"].main_content | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TXqxKy",
+        "text_M6xxmi"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_8gB4PY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cKmrTG": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobjects.device_compatibility[\"i-pads-with-e-sim-wi-fi-cellular\"].heading.value }}",
+            "heading_size": "h2"
+          }
+        },
+        "text_FVRAyN": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobjects.device_compatibility[\"i-pads-with-e-sim-wi-fi-cellular\"].main_content | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cKmrTG",
+        "text_FVRAyN"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_HHTaFq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_aKPU44": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobjects.device_compatibility[\"samsung-phones\"].heading.value }}",
+            "heading_size": "h2"
+          }
+        },
+        "text_kbPNCg": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobjects.device_compatibility[\"samsung-phones\"].main_content | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aKPU44",
+        "text_kbPNCg"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_qQeJGV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JCdB3z": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobjects.device_compatibility[\"other-devices\"].heading.value }}",
+            "heading_size": "h2"
+          }
+        },
+        "text_YMaLWU": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobjects.device_compatibility[\"other-devices\"].main_content | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JCdB3z",
+        "text_YMaLWU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_y9wUz6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WBMgnK": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ metaobjects.device_compatibility[\"windows-10-11-laptops\"].heading.value }}",
+            "heading_size": "h2"
+          }
+        },
+        "text_UhP3Dm": {
+          "type": "text",
+          "settings": {
+            "text": "{{ metaobjects.device_compatibility[\"windows-10-11-laptops\"].main_content | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WBMgnK",
+        "text_UhP3Dm"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_cxFQjC",
+    "rich_text_BztDAa",
+    "rich_text_8gB4PY",
+    "rich_text_HHTaFq",
+    "rich_text_qQeJGV",
+    "rich_text_y9wUz6"
   ]
 }
