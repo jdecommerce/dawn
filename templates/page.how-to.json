@@ -25,7 +25,7 @@
           "settings": {
             "image": "{{ metaobjects.set_up_guide[\"1-select-your-destination-and-purchase-a-plan\"].image.value }}",
             "caption": "",
-            "heading": "1. Select Your Destination and Purchase a Plan.",
+            "heading": "{{ metaobjects.set_up_guide[\"1-select-your-destination-and-purchase-a-plan\"].heading.value }}",
             "text": "{{ metaobjects.set_up_guide[\"1-select-your-destination-and-purchase-a-plan\"].content | metafield_tag }}",
             "button_label": "",
             "button_link": ""
