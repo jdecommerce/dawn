@@ -54,12 +54,25 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "row_PwnJbM": {
+          "type": "row",
+          "source": "{{ metaobjects.set_up_guide[\"4-turn-on-your-e-sim-when-you-arrive\"] }}",
+          "settings": {
+            "image": "{{ metaobjects.set_up_guide[\"4-turn-on-your-e-sim-when-you-arrive\"].image.value }}",
+            "caption": "",
+            "heading": "{{ metaobjects.set_up_guide[\"4-turn-on-your-e-sim-when-you-arrive\"].heading.value }}",
+            "text": "{{ metaobjects.set_up_guide[\"4-turn-on-your-e-sim-when-you-arrive\"].content | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "row_ip4eMR",
         "row_rw8cfE",
-        "row_pzmcU7"
+        "row_pzmcU7",
+        "row_PwnJbM"
       ],
       "settings": {
         "image_height": "adapt",
