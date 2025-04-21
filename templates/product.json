@@ -397,7 +397,7 @@
     "custom_liquid_TpAWge": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<script>\nconst features = document.querySelector(\".box-features\");\nconst afeatures = document.querySelector(\"#ProductAccordion-collapsible-row-0-template--24856975278424__main\");\nafeatures.prepend(features);\n</script>",
+        "custom_liquid": "<script>\nconst features = document.querySelector(\".box-features\");\nconst spec = document.querySelector(\".box-technical-specs\");\nconst afeatures = document.querySelector(\"#ProductAccordion-collapsible-row-0-template--24856975278424__main\");\nconst aspec = document.querySelector(\"#ProductAccordion-collapsible-row-0-template--24856975278424__main\");\nafeatures.prepend(features);\n</script>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
