@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "rich_text": {
       "type": "rich-text",
@@ -41,6 +41,9 @@
     },
     "featured_esim_collection_fyLHnd": {
       "type": "featured-esim-collection",
+      "custom_css": [
+        ".collection__view-all {margin-top: 4rem;}"
+      ],
       "settings": {
         "collection": "popular-destinations",
         "all-collection": "all-countries",
@@ -140,7 +143,6 @@
         "collapsible_row_j9Li6G",
         "collapsible_row_YmMWKG"
       ],
-      "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
         "heading": "Check your device compatibility",
