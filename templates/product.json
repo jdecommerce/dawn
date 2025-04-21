@@ -14,7 +14,10 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+            "title_prefix": "Buy an eSIM for",
+            "title_postfix": ""
+          }
         },
         "description": {
           "type": "description",
