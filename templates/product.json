@@ -210,7 +210,7 @@
       "settings": {
         "caption": "",
         "heading": "Check your device compatibility",
-        "introtext": "<p>Not all devices are compatible!</p>",
+        "introtext": "<p>Please check your device is compatible before ordering your eSIM.</p>",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",
