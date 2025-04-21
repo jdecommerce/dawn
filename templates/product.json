@@ -207,7 +207,6 @@
         "collapsible_row_j9Li6G",
         "collapsible_row_YmMWKG"
       ],
-      "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
         "heading": "Check your device compatibility",
@@ -223,12 +222,98 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_bM6PVf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UzX9Kr": {
+          "type": "heading",
+          "settings": {
+            "heading": "How to Activate Your eSIM",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UzX9Kr"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multirow_HEHNMV": {
+      "type": "multirow",
+      "blocks": {
+        "row_cNLr8q": {
+          "type": "row",
+          "source": "{{ metaobjects.set_up_guide[\"1-select-your-destination-and-purchase-a-plan\"] }}",
+          "settings": {
+            "image": "{{ metaobjects.set_up_guide[\"1-select-your-destination-and-purchase-a-plan\"].image.value }}",
+            "caption": "",
+            "heading": "{{ metaobjects.set_up_guide[\"1-select-your-destination-and-purchase-a-plan\"].heading.value }}",
+            "text": "{{ metaobjects.set_up_guide[\"1-select-your-destination-and-purchase-a-plan\"].content | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_CUpPXB": {
+          "type": "row",
+          "source": "{{ metaobjects.set_up_guide[\"2-receive-an-email-with-a-qr-code-sm-dp-address-and-activation-code\"] }}",
+          "settings": {
+            "image": "{{ metaobjects.set_up_guide[\"2-receive-an-email-with-a-qr-code-sm-dp-address-and-activation-code\"].image.value }}",
+            "caption": "",
+            "heading": "{{ metaobjects.set_up_guide[\"2-receive-an-email-with-a-qr-code-sm-dp-address-and-activation-code\"].heading.value }}",
+            "text": "{{ metaobjects.set_up_guide[\"2-receive-an-email-with-a-qr-code-sm-dp-address-and-activation-code\"].content | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_xE4kT4": {
+          "type": "row",
+          "source": "{{ metaobjects.set_up_guide[\"3-activate-your-e-sim\"] }}",
+          "settings": {
+            "image": "{{ metaobjects.set_up_guide[\"3-activate-your-e-sim\"].image.value }}",
+            "caption": "{{ metaobjects.set_up_guide[\"3-activate-your-e-sim\"].heading.value }}",
+            "heading": "{{ metaobjects.set_up_guide[\"3-activate-your-e-sim\"].heading.value }}",
+            "text": "{{ metaobjects.set_up_guide[\"3-activate-your-e-sim\"].content | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_cNLr8q",
+        "row_CUpPXB",
+        "row_xE4kT4"
+      ],
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "related-products",
     "featured_esim_collection_zaR8Ca",
-    "collapsible_content_8VfDY6"
+    "collapsible_content_8VfDY6",
+    "rich_text_bM6PVf",
+    "multirow_HEHNMV"
   ]
 }
