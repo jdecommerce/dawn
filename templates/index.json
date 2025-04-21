@@ -41,9 +41,7 @@
     },
     "featured_esim_collection_fyLHnd": {
       "type": "featured-esim-collection",
-      "custom_css": [
-        ".collection__view-all {margin-top: 4rem;}"
-      ],
+      "custom_css": [],
       "settings": {
         "collection": "popular-destinations",
         "all-collection": "all-countries",
