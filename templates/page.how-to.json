@@ -22,42 +22,45 @@
         "row_ip4eMR": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/select-sim.png",
             "caption": "",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "heading": "1. Select Your Destination and Purchase a Plan.",
+            "text": "<p>Select a plan based on the number of days you will be staying in your destination and the amount of data you think you will need.</p>",
             "button_label": "",
             "button_link": ""
           }
         },
-        "row_68hVXR": {
+        "row_Cdm8zw": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "image": "shopify://shop_images/scan-qr.png",
+            "caption": "",
+            "heading": "2. Receive an Email with a QR Code, \"SM-DP+ Address,\" and \"Activation Code\".",
+            "text": "<p>How you activate your eSIM differs between devices.</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_hwgERW": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "image": "shopify://shop_images/activate-esim.png",
+            "caption": "",
+            "heading": "3. Activate Your eSIM",
+            "text": "<p><strong>For iPhone & Samsung:</strong></p><ul><li>- Scan the QR code using your phone's camera.</li><li>- Click \"Cellular Plan\" to install.</li></ul><p><strong>For Pixel:</strong></p><ul><li>- Go to Settings &gt; Network & Internet &gt; Mobile Network or \"+\" &gt; Add more.</li><li>- Scan the QR code to install</li></ul><p></p><p><strong>OR Enter Activation Code Manually</strong></p><p><span style=\"text-decoration:underline\">For iPhone:</span></p><ul><li>- Go to Settings &gt; Cellular &gt; Add eSIM &gt; Enter Details Manually.</li><li>- Enter the \"SM-DP+ Address\" and \"Activation Code\", then tap \"Next\".</li></ul><p><span style=\"text-decoration:underline\">For Samsung:</span></p><ul><li>- Go to Settings &gt; Network & Internet &gt; SIM card manager &gt; Add mobile plan &gt; Scan carrier QR code or Enter activation code.</li><li>- Enter the long \"Activation Code.\"</li></ul><p><span style=\"text-decoration:underline\">For Pixel:</span></p><ul><li>- Go to Settings &gt; Network & Internet &gt; Mobile Network or \"+\" &gt; Add more &gt; Download a SIM instead? &gt; Need help &gt; Enter it manually.</li><li>- Enter the long \"Activation Code.\"</li></ul>",
+            "button_label": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
         "row_ip4eMR",
-        "row_68hVXR",
+        "row_Cdm8zw",
         "row_hwgERW"
       ],
       "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
+        "image_height": "adapt",
+        "desktop_image_width": "small",
         "image_layout": "alternate-left",
         "heading_size": "h2",
         "text_style": "body",
