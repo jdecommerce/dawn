@@ -290,7 +290,7 @@
           "source": "{{ metaobjects.set_up_guide[\"4-turn-on-your-e-sim-when-you-arrive\"] }}",
           "settings": {
             "image": "{{ metaobjects.set_up_guide[\"4-turn-on-your-e-sim-when-you-arrive\"].image.value }}",
-            "caption": "{{ metaobjects.set_up_guide[\"4-turn-on-your-e-sim-when-you-arrive\"].heading.value }}",
+            "caption": "",
             "heading": "{{ metaobjects.set_up_guide[\"4-turn-on-your-e-sim-when-you-arrive\"].heading.value }}",
             "text": "{{ metaobjects.set_up_guide[\"4-turn-on-your-e-sim-when-you-arrive\"].content | metafield_tag }}",
             "button_label": "",
