@@ -27,7 +27,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Features",
-            "icon": "star",
+            "icon": "question_mark",
             "content": "",
             "page": ""
           }
