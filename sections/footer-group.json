@@ -28,6 +28,13 @@
             "menu": "information"
           }
         },
+        "link_list_tV6aT9": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Popular Destinations",
+            "menu": "popular-destinations"
+          }
+        },
         "footer-2": {
           "type": "text",
           "settings": {
@@ -39,6 +46,7 @@
       "block_order": [
         "footer-0",
         "footer-1",
+        "link_list_tV6aT9",
         "footer-2"
       ],
       "settings": {
