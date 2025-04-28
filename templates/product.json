@@ -66,6 +66,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -87,7 +88,7 @@
       "settings": {
         "collection": "popular-destinations",
         "all-collection": "all-countries",
-        "products_to_show": 16,
+        "products_to_show": 8,
         "title": "Popular Destinations",
         "heading_size": "h2",
         "description": "",
@@ -105,7 +106,7 @@
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "none",
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
