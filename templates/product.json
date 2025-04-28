@@ -15,7 +15,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "title_prefix": "Buy an eSIM for",
+            "title_prefix": "Buy a cheap eSIM for",
             "title_postfix": ""
           }
         },
@@ -27,7 +27,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Features",
-            "icon": "question_mark",
+            "icon": "clipboard",
             "content": "",
             "page": ""
           }
