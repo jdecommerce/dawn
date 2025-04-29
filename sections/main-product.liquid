@@ -118,14 +118,24 @@
 
               {%- for variant in product.variants -%}
                 {% assign nonhkip = false %}
+                {% assign singleuse = false %}
+
+                {% if variant.title contains 'Single Use' %}
+                  {% assign singleuse = true %}
+
+                  {% assign simdatapre = variant.title | remove: ' Single Use' %}
+
+                {% else %}
+                  {% assign simdatapre = variant.title %}
+                {% endif %}
 
                 {% if variant.title contains 'nonhkip' %}
                   {% assign nonhkip = true %}
 
-                  {% assign simdata = variant.title | remove: ' (nonhkip)' | split: ' ' | reverse %}
+                  {% assign simdata = simdatapre | remove: ' (nonhkip)' | split: ' ' | reverse %}
 
                 {% else %}
-                  {% assign simdata = variant.title | split: ' ' | reverse %}
+                  {% assign simdata = simdatapre | split: ' ' | reverse %}
                 {% endif %}
 
                 {% assign simcountry = product.title %}
@@ -209,7 +219,9 @@
                               </svg>
                             </span>
                             <p>Validity:</p>
-                            <p class="esim-value">{{ simdays }} days</p>
+                            <p class="esim-value">
+                              {{ simdays }} days{% if singleuse == true %} (Single Use){% endif %}
+                            </p>
                           </div>
                         </li>
                         <li>
