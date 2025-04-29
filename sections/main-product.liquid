@@ -122,7 +122,7 @@
                 {% if variant.title contains 'nonhkip' %}
                   {% assign nonhkip = true %}
 
-                  {% assign simdata = variant.title | remove " (nonhkip)" | split: ' ' | reverse %}
+                  {% assign simdata = variant.title | remove: ' (nonhkip)' | split: ' ' | reverse %}
 
                 {% else %}
                   {% assign simdata = variant.title | split: ' ' | reverse %}
