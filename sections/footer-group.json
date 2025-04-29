@@ -21,6 +21,13 @@
             "menu": "footer"
           }
         },
+        "link_list_tV6aT9": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Popular Destinations",
+            "menu": "popular-destinations"
+          }
+        },
         "footer-1": {
           "type": "link_list",
           "settings": {
@@ -30,21 +37,23 @@
         },
         "footer-2": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
+            "heading": "Roameo eSIMs",
+            "subtext": "<p>We're on a mission to provide excellent value for money eSIMs backed up by first class friendly support.</p>"
           }
         }
       },
       "block_order": [
         "footer-0",
+        "link_list_tV6aT9",
         "footer-1",
         "footer-2"
       ],
       "settings": {
         "color_scheme": "scheme-3",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Subscribe to our emails and receive our latest special offers",
         "enable_follow_on_shop": false,
         "show_social": false,
         "enable_country_selector": true,

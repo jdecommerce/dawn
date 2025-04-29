@@ -1,0 +1,112 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "collapsible_content_fmLDJC": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_YczGP4": {
+          "type": "collapsible_row",
+          "source": "{{ metaobjects.faqs[\"how-do-i-get-a-roameo-e-sim\"] }}",
+          "settings": {
+            "heading": "{{ metaobjects.faqs[\"how-do-i-get-a-roameo-e-sim\"].heading.value }}",
+            "icon": "check_mark",
+            "row_content": "{{ metaobjects.faqs[\"how-do-i-get-a-roameo-e-sim\"].content | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_row_rDYiDH": {
+          "type": "collapsible_row",
+          "source": "{{ metaobjects.faqs[\"when-should-i-use-an-e-sim\"] }}",
+          "settings": {
+            "heading": "{{ metaobjects.faqs[\"when-should-i-use-an-e-sim\"].heading.value }}",
+            "icon": "check_mark",
+            "row_content": "{{ metaobjects.faqs[\"when-should-i-use-an-e-sim\"].content | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_row_6gA9qn": {
+          "type": "collapsible_row",
+          "source": "{{ metaobjects.faqs[\"how-do-i-know-if-my-device-supports-roameo-e-si-ms\"] }}",
+          "settings": {
+            "heading": "{{ metaobjects.faqs[\"how-do-i-know-if-my-device-supports-roameo-e-si-ms\"].heading.value }}",
+            "icon": "check_mark",
+            "row_content": "{{ metaobjects.faqs[\"how-do-i-know-if-my-device-supports-roameo-e-si-ms\"].content | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_row_HJWdNw": {
+          "type": "collapsible_row",
+          "source": "{{ metaobjects.faqs[\"how-do-i-choose-the-right-roameo-e-sim-data-plan\"] }}",
+          "settings": {
+            "heading": "{{ metaobjects.faqs[\"how-do-i-choose-the-right-roameo-e-sim-data-plan\"].heading.value }}",
+            "icon": "check_mark",
+            "row_content": "{{ metaobjects.faqs[\"how-do-i-choose-the-right-roameo-e-sim-data-plan\"].content | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_row_d94ceh": {
+          "type": "collapsible_row",
+          "source": "{{ metaobjects.faqs[\"does-roameo-e-sim-come-with-calls-texts-service\"] }}",
+          "settings": {
+            "heading": "{{ metaobjects.faqs[\"does-roameo-e-sim-come-with-calls-texts-service\"].heading.value }}",
+            "icon": "check_mark",
+            "row_content": "{{ metaobjects.faqs[\"does-roameo-e-sim-come-with-calls-texts-service\"].content | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_row_VyEeW7": {
+          "type": "collapsible_row",
+          "source": "{{ metaobjects.faqs[\"when-should-i-install-my-roameo-e-sim\"] }}",
+          "settings": {
+            "heading": "{{ metaobjects.faqs[\"when-should-i-install-my-roameo-e-sim\"].heading.value }}",
+            "icon": "check_mark",
+            "row_content": "{{ metaobjects.faqs[\"when-should-i-install-my-roameo-e-sim\"].content | metafield_tag }}",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_YczGP4",
+        "collapsible_row_rDYiDH",
+        "collapsible_row_6gA9qn",
+        "collapsible_row_HJWdNw",
+        "collapsible_row_d94ceh",
+        "collapsible_row_VyEeW7"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "introtext": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collapsible_content_fmLDJC"
+  ]
+}
