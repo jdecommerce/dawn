@@ -111,8 +111,23 @@
               id="Slider-{{ section.id }}"
               role="list"
             >
+              {% assign hkexit = false %}
+              {% if product.description contains 'Data Exit Country:</strong> Hong Kong' %}
+                {% assign hkexit = true %}
+              {% endif %}
+
               {%- for variant in product.variants -%}
-                {% assign simdata = variant.title | split: ' ' | reverse %}
+                {% assign nonhkip = false %}
+
+                {% if variant.title contains 'nonhkip' %}
+                  {% assign nonhkip = true %}
+
+                  {% assign simdata = variant.title | remove " (nonhkip)" | split: ' ' | reverse %}
+
+                {% else %}
+                  {% assign simdata = variant.title | split: ' ' | reverse %}
+                {% endif %}
+
                 {% assign simcountry = product.title %}
                 {% assign simgigs = simdata[1] %}
                 {% assign simdayssplit = simdata[0] | split: 'Days' %}
@@ -216,6 +231,16 @@
                             <p class="esim-value">{{ variant.price | money }}</p>
                           </div>
                         </li>
+                        {% if hkexit == true %}
+                          <li>
+                            <div class="esim-row">
+                              <p>Data breakout:</p>
+                              <p class="esim-value">
+                                {% if nonhkip == true %}Local{% else %}Hong Kong{% endif %}
+                              </p>
+                            </div>
+                          </li>
+                        {% endif %}
                       </ul>
                       <product-form
                         class="product-form"
